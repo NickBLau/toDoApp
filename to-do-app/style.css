@@ -1,0 +1,81 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    position: relative;
+    background-size: cover;
+    background-image: url(img/background.image.png);
+    min-height: 800px;
+    background-color: gray;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+.container{
+    background-color: #df8713ca;
+    opacity: 0.9;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+    
+}
+
+#add-new-form{
+    display: none;
+}
+#add-new-form *{
+    display: block;
+    padding: 10px;
+    margin: 5px 0px;
+    width: 100%;
+}
+
+#add-new-btn{
+    padding: 10px;
+    width: 100%;
+}
+
+#add-new-form.editing-active{
+    display: block;
+}
+.myTask{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.done{
+    background-color: aquamarine;
+}
+
+.done h2{
+    text-decoration: line-through
+}
+
+.notdone{
+    background-color: red;
+
+}
+
+.notdone h2{
+text-decoration: line-through
+}
+
+.progress{
+    background-color: cornflowerblue;
+}
+
+
+
+
+#trash-btn{
+    padding-top: 2px;
+    margin: auto;
+    max-height: 16px;
+}
